@@ -19,7 +19,7 @@ export default function Home() {
 
       <main className="flex-grow p-6 flex flex-col items-center justify-center text-center">
         <h1 className="text-4xl font-bold">Hello!</h1>
-        <p>I'm Anthony Shuey. I love math, computer science, everything in between. I'm a student at Boston Universtiy pursuing a double major in math and computer science. I love solving competitive programming/math problems, and I love learning new technologies!</p>
+        <p>I&apos;m Anthony Shuey. I love math, computer science, everything in between. I&apos;m a student at Boston University pursuing a double major in math and computer science. I love solving competitive programming/math problems, and I love learning new technologies!</p>
         <Image src="/image_for_website.jpg" alt="Your Image" width={200} height={200} className="rounded-full mt-4"/>
       </main>
 
@@ -42,3 +42,4 @@ export default function Home() {
     </div>
   );
 }
+
