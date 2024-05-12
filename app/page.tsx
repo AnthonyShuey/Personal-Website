@@ -1,3 +1,7 @@
+import Head from 'next/head'; // Ensure this is correctly spelled and cased
+import Image from 'next/image'; // Ensure this is correctly spelled and cased
+import styles from './Home.module.css'; // Make sure the path is correct
+
 export default function Home() {
     return (
         <div className={`${styles.flexContainer} flex-col min-h-screen bg-white text-black`}>
@@ -16,7 +20,7 @@ export default function Home() {
 
             <main className={`${styles.flexContainer} flex-grow p-6 flex-col items-center justify-center text-center`}>
                 <h1 className="text-4xl font-bold">Hello!</h1>
-                <p>I'm Anthony Shuey. I love math, computer science, and everything in between. I'm a student at Boston University pursuing a double major in math and computer science. I love solving competitive programming/math problems, and I love learning new technologies!</p>
+                <p>I&apos;m Anthony Shuey. I love math, computer science, and everything in between. I&apos;m a student at Boston University pursuing a double major in math and computer science. I love solving competitive programming/math problems, and I love learning new technologies!</p>
                 <Image src="/image_for_website.jpg" alt="Your Image" width={200} height={200} className="rounded-full mt-4"/>
                 <div className={`${styles.flexContainer} mt-2 items-center`}>
                     <a href="https://www.linkedin.com/in/anthonshuey" target="_blank" rel="noopener noreferrer" className={styles.logoLink}>
@@ -50,6 +54,7 @@ export default function Home() {
         </div>
     );
 }
+
 
 
 
