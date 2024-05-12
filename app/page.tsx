@@ -23,10 +23,13 @@ export default function Home() {
         <Image src="/image_for_website.jpg" alt="Your Image" width={200} height={200} className="rounded-full mt-4"/>
         <div className="flex mt-2">
           <a href="https://www.linkedin.com/in/anthonshuey">
-            <Image src="/linkedin_logo.jpg" alt="LinkedIn Logo" width={30} height={30}/>
+            <Image src="/linkedin_logo.png" alt="LinkedIn Logo" width={30} height={30}/>
           </a>
           <a href="https://www.instagram.com/shueyjanthony/" className="ml-2">
-            <Image src="/instagram_logo.jpg" alt="Instagram Logo" width={30} height={30}/>
+            <Image src="/instagram_logo.png" alt="Instagram Logo" width={30} height={30}/>
+          </a>
+          <a href="https://twitter.com/yourTwitterHandle" className="ml-2">
+            <Image src="/twitter_logo.png" alt="Twitter Logo" width={30} height={30}/>
           </a>
         </div>
       </main>
