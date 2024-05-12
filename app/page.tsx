@@ -34,7 +34,7 @@ export default function Home() {
         <div>
           <h2 className="font-bold">Up next</h2>
           <ul>
-            <li>Plan 1</li>
+            <li>Leetcode/Codeforces</li>
             <li>Plan 2</li>
           </ul>
         </div>
