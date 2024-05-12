@@ -21,11 +21,11 @@ export default function Home() {
         <h1 className="text-4xl font-bold">Hello!</h1>
         <p>I&apos;m Anthony Shuey. I love math, computer science, everything in between. I&apos;m a student at Boston University pursuing a double major in math and computer science. I love solving competitive programming/math problems, and I love learning new technologies!</p>
         <Image src="/image_for_website.jpg" alt="Your Image" width={200} height={200} className="rounded-full mt-4"/>
-        <div className="flex mt-2">  <!-- Flex container for social icons -->
-          <a href="https://www.linkedin.com/in/anthonshuey" className="mr-2">
+        <div className="flex mt-2">
+          <a href="https://www.linkedin.com/in/anthonshuey">
             <Image src="/linkedin_logo.jpg" alt="LinkedIn Logo" width={30} height={30}/>
           </a>
-          <a href="https://www.instagram.com/shueyjanthony/">
+          <a href="https://www.instagram.com/shueyjanthony/" className="ml-2">
             <Image src="/instagram_logo.jpg" alt="Instagram Logo" width={30} height={30}/>
           </a>
         </div>
@@ -51,5 +51,4 @@ export default function Home() {
   );
 }
 
-}
 
