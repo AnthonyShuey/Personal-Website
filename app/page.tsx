@@ -28,7 +28,7 @@ export default function Home() {
           <a href="https://www.instagram.com/shueyjanthony/" className="ml-2">
             <Image src="/instagram_logo.jpg" alt="Instagram Logo" width={30} height={30}/>
           </a>
-          <a href="https://twitter.com/yourTwitterHandle" className="ml-2">
+          <a href="https://twitter.com/AnthonyShu22260" className="ml-2">
             <Image src="/twitter_logo.jpg" alt="Twitter Logo" width={30} height={30}/>
           </a>
         </div>
