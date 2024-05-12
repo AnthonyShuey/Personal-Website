@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from './Home.module.css';  // Ensure this is correctly importing your CSS module
+import styles from './Home.module.css';  // This imports the CSS module
 
 export default function Home() {
     return (
@@ -32,7 +32,7 @@ export default function Home() {
                     <a href="https://twitter.com/AnthonyShu22260" target="_blank" rel="noopener noreferrer" className={styles.logoLink}>
                         <Image src="/twitter_logo.jpg" alt="Twitter Logo" width={48} height={48} className="mx-1"/>
                     </a>
-                    <a href="https://github.com/AnthonyShuey" target="_blank" rel="noopener noreferrer" className={styles.logoLink}>
+                    <a href="https://github.com/yourGitHubUsername" target="_blank" rel="noopener noreferrer" className={styles.logoLink}>
                         <Image src="/github_logo.jpg" alt="GitHub Logo" width={48} height={48} className="mx-1"/>  <!-- Update yourGitHubUsername -->
                     </a>
                 </div>
@@ -57,6 +57,7 @@ export default function Home() {
         </div>
     );
 }
+
 
 
 
