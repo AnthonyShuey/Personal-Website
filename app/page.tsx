@@ -24,7 +24,7 @@ export default function Home() {
         <a href="https://www.linkedin.com/in/anthonshuey" className="block mt-2">
           <Image src="/linkedin_logo.png" alt="LinkedIn Logo" width={30} height={30}/>
         </a>
-        <a href="https://www.instagram.com/yourusername" className="block mt-2">
+        <a href="https://www.instagram.com/shueyjanthony/" className="block mt-2">
           <Image src="/instagram_logo.jpg" alt="Instagram Logo" width={30} height={30}/>
         </a>
       </main>
