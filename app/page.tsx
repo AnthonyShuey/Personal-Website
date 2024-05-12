@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from './Home.module.css'; // Ensure this is correctly importing your CSS module
+import styles from './Home.module.css';  // Ensure this is correctly importing your CSS module
 
 export default function Home() {
     return (
@@ -20,7 +20,7 @@ export default function Home() {
 
             <main className={`${styles.flexContainer} flex-grow p-6 flex-col items-center justify-center text-center`}>
                 <h1 className="text-4xl font-bold">Hello!</h1>
-                <p>I&apos;m Anthony Shuey. I love math, computer science, and everything in between. I&apos;m a student at Boston University pursuing a double major in math and computer science. I love solving competitive programming/math problems, and I love learning new technologies!</p>
+                <p>I'm Anthony Shuey. I love math, computer science, and everything in between. I'm a student at Boston University pursuing a double major in math and computer science. I love solving competitive programming/math problems, and I love learning new technologies!</p>
                 <Image src="/image_for_website.jpg" alt="Your Image" width={200} height={200} className="rounded-full mt-4"/>
                 <div className={`${styles.flexContainer} mt-2 items-center`}>
                     <a href="https://www.linkedin.com/in/anthonshuey" target="_blank" rel="noopener noreferrer" className={styles.logoLink}>
@@ -36,14 +36,14 @@ export default function Home() {
             </main>
 
             <footer className={`${styles.flexContainer} bg-white p-4 justify-around`}>
-                <div>
+                <div className="w-1/2 p-4">  <!-- Adjusted for half width and padding -->
                     <h2 className="font-bold">I am currently exploring</h2>
                     <ul>
                         <li>Topic 1</li>
                         <li>Topic 2</li>
                     </ul>
                 </div>
-                <div>
+                <div className="w-1/2 p-4">  <!-- Adjusted for half width and padding -->
                     <h2 className="font-bold">Up next</h2>
                     <ul>
                         <li>Leetcode/Codeforces</li>
@@ -54,7 +54,6 @@ export default function Home() {
         </div>
     );
 }
-
 
 
 
