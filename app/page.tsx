@@ -21,7 +21,7 @@ export default function Home() {
                 <h1 className="text-4xl font-bold">Hello!</h1>
                 <p>I&apos;m Anthony Shuey. I love math, computer science, and everything in between. I&apos;m a student at Boston University pursuing a double major in math and computer science. I love solving competitive programming/math problems, and I love learning new technologies!</p>
                 <Image src="/image_for_website.jpg" alt="Your Image" width={200} height={200} className="rounded-full mt-4"/>
-                <div className="flex mt-2 items-center">  
+                <div className="flex mt-2 items-center">
                     <a href="https://www.linkedin.com/in/anthonshuey" target="_blank" rel="noopener noreferrer" className="logo">
                         <Image src="/linkedin_logo.jpg" alt="LinkedIn Logo" width={30} height={30} className="mx-1"/>
                     </a>
