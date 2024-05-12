@@ -13,7 +13,7 @@ export default function Home() {
   <a href="#home" className="text-black hover:text-blue-500">Home</a>
   <a href="#favorites" className="text-black hover:text-blue-500">Favorites</a>
   <a href="#projects" className="text-black hover:text-blue-500">Projects</a>
-  <a href="/resume.pdf" className="text-black hover:text-blue-500">Resume</a>
+  <a href="/Resume.pdf" className="text-black hover:text-blue-500">Resume</a>
   <a href="#writing" className="text-black hover:text-blue-500">Writing</a>
 </nav>
 
