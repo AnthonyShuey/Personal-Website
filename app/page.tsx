@@ -18,10 +18,11 @@ export default function Home() {
 </nav>
 
       <main className="flex-grow p-6 flex flex-col items-center justify-center text-center">
-        <h1 className="text-4xl font-bold">Hello!</h1>
-        <p>I&apos;m Anthony Shuey. I love math, computer science, everything in between. I&apos;m a student at Boston University pursuing a double major in math and computer science. I love solving competitive programming/math problems, and I love learning new technologies!</p>
-        <Image src="/image_for_website.jpg" alt="Your Image" width={200} height={200} className="rounded-full mt-4"/>
-      </main>
+    <h1 className="text-4xl font-bold">Hello!</h1>
+    <p>I'm Anthony Shuey. I love math, computer science, everything in between. I'm a student at Boston University pursuing a double major in math and computer science. I love solving competitive programming/math problems, and I love learning new technologies!</p>
+    <Image src="/image_for_website.jpg" alt="Your Image" width={200} height={200} className="rounded-full mt-4"/>
+    <a href="www.linkedin.com/in/anthonshuey" className="mt-2 text-blue-600 hover:text-blue-800">Connect on LinkedIn</a>
+</main>
 
       <footer className="bg-gray-200 p-4 flex justify-around">
         <div>
