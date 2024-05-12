@@ -26,10 +26,10 @@ export default function Home() {
             <Image src="/linkedin_logo.jpg" alt="LinkedIn Logo" width={30} height={30} className="mx-1"/>
           </a>
           <a href="https://www.instagram.com/shueyjanthony/" target="_blank" rel="noopener noreferrer" className="mx-1">
-            <Image src="/instagram_logo.jpg" alt="Instagram Logo" width={30} height={30}/>
+            <Image src="/instagram_logo.jpg" alt="Instagram Logo" width={48} height={48}/>  <!-- Size adjusted by 60% -->
           </a>
           <a href="https://twitter.com/AnthonyShu22260" target="_blank" rel="noopener noreferrer" className="mx-1">
-            <Image src="/twitter_logo.jpg" alt="Twitter Logo" width={30} height={30}/>
+            <Image src="/twitter_logo.jpg" alt="Twitter Logo" width={48} height={48}/>  <!-- Size adjusted by 60% -->
           </a>
         </div>
       </main>
@@ -53,6 +53,7 @@ export default function Home() {
     </div>
   );
 }
+
 
 
 
