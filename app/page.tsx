@@ -1,4 +1,3 @@
-import '../app/styles.css';
 import Head from 'next/head';
 import Image from 'next/image';
 
@@ -19,22 +18,21 @@ export default function Home() {
             </nav>
 
             <main className="flex-grow p-6 flex flex-col items-center justify-center text-center">
-    <h1 className="text-4xl font-bold">Hello!</h1>
-    <p>I&apos;m Anthony Shuey. I love math, computer science, and everything in between. I&apos;m a student at Boston University pursuing a double major in math and computer science. I love solving competitive programming/math problems, and I love learning new technologies!</p>
-    <Image src="/image_for_website.jpg" alt="Your Image" width={200} height={200} className="rounded-full mt-4"/>
-    <div className="flex mt-2 items-center">  <!-- Ensure items are centered in the flex container -->
-        <a href="https://www.linkedin.com/in/anthonshuey" target="_blank" rel="noopener noreferrer" className="logo">
-            <Image src="/linkedin_logo.jpg" alt="LinkedIn Logo" width={30} height={30} className="mx-1"/>
-        </a>
-        <a href="https://www.instagram.com/shueyjanthony/" target="_blank" rel="noopener noreferrer" className="logo">
-            <Image src="/instagram_logo.jpg" alt="Instagram Logo" width={48} height={48} className="mx-1"/>
-        </a>
-        <a href="https://twitter.com/AnthonyShu22260" target="_blank" rel="noopener noreferrer" className="logo">
-            <Image src="/twitter_logo.jpg" alt="Twitter Logo" width={48} height={48} className="mx-1"/>
-        </a>
-    </div>
-</main>
-
+                <h1 className="text-4xl font-bold">Hello!</h1>
+                <p>I&apos;m Anthony Shuey. I love math, computer science, and everything in between. I&apos;m a student at Boston University pursuing a double major in math and computer science. I love solving competitive programming/math problems, and I love learning new technologies!</p>
+                <Image src="/image_for_website.jpg" alt="Your Image" width={200} height={200} className="rounded-full mt-4"/>
+                <div className="flex mt-2 items-center">  
+                    <a href="https://www.linkedin.com/in/anthonshuey" target="_blank" rel="noopener noreferrer" className="logo">
+                        <Image src="/linkedin_logo.jpg" alt="LinkedIn Logo" width={30} height={30} className="mx-1"/>
+                    </a>
+                    <a href="https://www.instagram.com/shueyjanthony/" target="_blank" rel="noopener noreferrer" className="logo">
+                        <Image src="/instagram_logo.jpg" alt="Instagram Logo" width={48} height={48} className="mx-1"/>
+                    </a>
+                    <a href="https://twitter.com/AnthonyShu22260" target="_blank" rel="noopener noreferrer" className="logo">
+                        <Image src="/twitter_logo.jpg" alt="Twitter Logo" width={48} height={48} className="mx-1"/>
+                    </a>
+                </div>
+            </main>
 
             <footer className="bg-white p-4 flex justify-around">
                 <div>
@@ -52,9 +50,28 @@ export default function Home() {
                     </ul>
                 </div>
             </footer>
+
+            <style jsx>{`
+                .logo img {
+                    display: block;
+                    vertical-align: middle;
+                }
+
+                .flex, .logo {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .logo a {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            `}</style>
         </div>
     );
 }
+
 
 
 
