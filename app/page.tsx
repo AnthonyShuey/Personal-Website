@@ -1,7 +1,3 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from './Home.module.css';  // Ensure this is correctly importing your CSS module
-
 export default function Home() {
     return (
         <div className={`${styles.flexContainer} flex-col min-h-screen bg-white text-black`}>
@@ -36,14 +32,14 @@ export default function Home() {
             </main>
 
             <footer className={`${styles.flexContainer} bg-white p-4 justify-around`}>
-                <div className="w-1/2 p-4">  <!-- Adjusted for half width and padding -->
+                <div className="w-1/2 p-4">
                     <h2 className="font-bold">I am currently exploring</h2>
                     <ul>
                         <li>Topic 1</li>
                         <li>Topic 2</li>
                     </ul>
                 </div>
-                <div className="w-1/2 p-4">  <!-- Adjusted for half width and padding -->
+                <div className="w-1/2 p-4">
                     <h2 className="font-bold">Up next</h2>
                     <ul>
                         <li>Leetcode/Codeforces</li>
@@ -54,6 +50,7 @@ export default function Home() {
         </div>
     );
 }
+
 
 
 
