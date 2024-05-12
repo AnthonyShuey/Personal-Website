@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from './Home.module.css';  // This imports the CSS module
+import styles from './Home.module.css';  // Make sure this path is correct
 
 export default function Home() {
     return (
@@ -57,6 +57,7 @@ export default function Home() {
         </div>
     );
 }
+
 
 
 
