@@ -10,12 +10,12 @@ export default function Home() {
       </Head>
 
       <nav className="bg-gray-100 p-4 flex justify-end space-x-4">
-        <a href="#home" className="text-black hover:text-blue-500">Home</a>
-        <a href="#favorites" className="text-black hover:text-blue-500">Favorites</a>
-        <a href="#projects" className="text-black hover:text-blue-500">Projects</a>
-        <a href="/resume.pdf" target="_blank" className="text-black hover:text-blue-500">Resume</a>
-        <a href="#writing" className="text-black hover:text-blue-500">Writing</a>
-      </nav>
+  <a href="#home" className="text-black hover:text-blue-500">Home</a>
+  <a href="#favorites" className="text-black hover:text-blue-500">Favorites</a>
+  <a href="#projects" className="text-black hover:text-blue-500">Projects</a>
+  <a href="/resume.pdf" className="text-black hover:text-blue-500">Resume</a>
+  <a href="#writing" className="text-black hover:text-blue-500">Writing</a>
+</nav>
 
       <main className="flex-grow p-6 flex flex-col items-center justify-center text-center">
         <h1 className="text-4xl font-bold">Hello!</h1>
