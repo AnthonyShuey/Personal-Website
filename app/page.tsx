@@ -22,7 +22,7 @@ export default function Home() {
         <p>I&apos;m Anthony Shuey. I love math, computer science, everything in between. I&apos;m a student at Boston University pursuing a double major in math and computer science. I love solving competitive programming/math problems, and I love learning new technologies!</p>
         <Image src="/image_for_website.jpg" alt="Your Image" width={200} height={200} className="rounded-full mt-4"/>
         <a href="https://www.linkedin.com/in/anthonshuey" target="_blank" rel="noopener noreferrer">
-          <Image src="/linkedin_logo.png" alt="LinkedIn Logo" width={30} height={30} className="mt-2"/>
+          <Image src="/linkedin_logo.jpg" alt="LinkedIn Logo" width={30} height={30} className="mt-2"/>
         </a>
       </main>
 
