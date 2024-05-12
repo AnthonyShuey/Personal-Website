@@ -1,0 +1,15 @@
+.logoImg {
+    display: block;
+    vertical-align: middle;
+}
+
+.flexContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logoLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
