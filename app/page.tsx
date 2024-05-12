@@ -10,19 +10,21 @@ export default function Home() {
       </Head>
 
       <nav className="bg-gray-100 p-4 flex justify-end space-x-4">
-  <a href="#home" className="text-black hover:text-blue-500">Home</a>
-  <a href="#favorites" className="text-black hover:text-blue-500">Favorites</a>
-  <a href="#projects" className="text-black hover:text-blue-500">Projects</a>
-  <a href="/Resume.pdf" className="text-black hover:text-blue-500">Resume</a>
-  <a href="#writing" className="text-black hover:text-blue-500">Writing</a>
-</nav>
+        <a href="#home" className="text-black hover:text-blue-500">Home</a>
+        <a href="#favorites" className="text-black hover:text-blue-500">Favorites</a>
+        <a href="#projects" className="text-black hover:text-blue-500">Projects</a>
+        <a href="/Resume.pdf" className="text-black hover:text-blue-500">Resume</a>
+        <a href="#writing" className="text-black hover:text-blue-500">Writing</a>
+      </nav>
 
       <main className="flex-grow p-6 flex flex-col items-center justify-center text-center">
-    <h1 className="text-4xl font-bold">Hello!</h1>
-    <p>I'm Anthony Shuey. I love math, computer science, everything in between. I'm a student at Boston University pursuing a double major in math and computer science. I love solving competitive programming/math problems, and I love learning new technologies!</p>
-    <Image src="/image_for_website.jpg" alt="Your Image" width={200} height={200} className="rounded-full mt-4"/>
-    <a href="www.linkedin.com/in/anthonshuey" className="mt-2 text-blue-600 hover:text-blue-800">Connect on LinkedIn</a>
-</main>
+        <h1 className="text-4xl font-bold">Hello!</h1>
+        <p>I'm Anthony Shuey. I love math, computer science, everything in between. I'm a student at Boston University pursuing a double major in math and computer science. I love solving competitive programming/math problems, and I love learning new technologies!</p>
+        <Image src="/image_for_website.jpg" alt="Your Image" width={200} height={200} className="rounded-full mt-4"/>
+        <a href="https://www.linkedin.com/in/anthonshuey" target="_blank" rel="noopener noreferrer">
+          <Image src="/linkedin_logo.png" alt="LinkedIn Logo" width={30} height={30} className="mt-2"/>
+        </a>
+      </main>
 
       <footer className="bg-gray-200 p-4 flex justify-around">
         <div>
@@ -43,4 +45,3 @@ export default function Home() {
     </div>
   );
 }
-
