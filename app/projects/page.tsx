@@ -23,11 +23,10 @@ export default function Projects() {
           <Link href="#favorites" className="text-black hover:text-blue-500">Favorites</Link>
           <Link href="/projects" className="text-black hover:text-blue-500">Projects</Link>
           <Link href="/Resume.pdf" className="text-black hover:text-blue-500">Resume</Link>
-          
         </nav>
         <div className="text-center mt-0">
           <h1 className="text-4xl font-bold text-black">Projects</h1>
-          <p className="text-lg text-black">I love creating new skills through project development. Let me know if you're interested in collaborating.</p>
+          <p className="text-lg text-black">{`I love creating new skills through project development. Let me know if you're interested in collaborating.`}</p>
         </div>
         <div className="flex flex-wrap justify-center gap-4 p-8">
           {projects.map((project, index) => (
@@ -43,4 +42,5 @@ export default function Projects() {
         </div>
       </div>
     );
-  }
+}
+
