@@ -15,14 +15,13 @@ export default function Home() {
       <nav className={`${styles.flexContainer} bg-white p-4 justify-end space-x-4`}>
         <a href="#home" >Home</a>
         <a href="#favorites" >Favorites</a>
-        <Link href="/projects"> Projects</Link>
+        <Link href="/projects">Projects</Link>
         <Link href="/Resume.pdf" >Resume</Link>
-        
       </nav>
 
       <main className={`${styles.flexContainer} flex-grow p-6 flex-col items-center justify-center text-center`}>
         <h1 className="text-4xl font-bold">Hello!</h1>
-        <p>I'm Anthony Shuey. I love math, computer science, and everything in between. I'm a student at Boston University pursuing a double major in math and computer science. I love solving competitive programming/math problems, and I love learning new technologies! </p>
+        <p>{`I'm Anthony Shuey. I love math, computer science, and everything in between. I'm a student at Boston University pursuing a double major in math and computer science. I love solving competitive programming/math problems, and I love learning new technologies!`}</p>
         <Image src="/image_for_website.jpg" alt="Your Image" width={200} height={200} className="rounded-full mt-4"/>
         <div className={`${styles.flexContainer} mt-2 items-center`}>
           <a href="https://www.linkedin.com/in/anthonshuey" target="_blank" rel="noopener noreferrer" className={styles.logoLink}>
@@ -46,13 +45,13 @@ export default function Home() {
           <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
           <li style={{ whiteSpace: 'nowrap' }}>Building an app with XCode to publish to the App Store</li>
           <li style={{ whiteSpace: 'nowrap' }}>Data Structures and Algorithms</li>
-
           </ul>
         </div>
       </footer>
     </div>
   );
 }
+
 
 
 
