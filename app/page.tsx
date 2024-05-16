@@ -44,7 +44,9 @@ export default function Home() {
           <h2 className="font-bold">Currently</h2>
           <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
           <li style={{ whiteSpace: 'nowrap' }}>Building an app with XCode to publish to the App Store</li>
-          <li style={{ whiteSpace: 'nowrap' }}>Data Structures and Algorithms</li>
+          <li style={{ whiteSpace: 'nowrap' }}>Interning</li>
+          <li style={{ whiteSpace: 'nowrap' }}>Researching and developing projects</li>
+          
           </ul>
         </div>
       </footer>
