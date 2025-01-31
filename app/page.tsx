@@ -14,7 +14,6 @@ export default function Home() {
 
       <nav className={`${styles.flexContainer} bg-white p-4 justify-end space-x-4`}>
         <a href="#home" >Home</a>
-        <a href="#favorites" >Favorites</a>
         <Link href="/projects">Projects</Link>
         <Link href="/Resume.pdf" >Resume</Link>
       </nav>
