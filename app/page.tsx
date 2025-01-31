@@ -26,12 +26,6 @@ export default function Home() {
           <a href="https://www.linkedin.com/in/anthonshuey" target="_blank" rel="noopener noreferrer" className={styles.logoLink}>
             <Image src="/linkedin_logo.jpg" alt="LinkedIn Logo" width={30} height={30} className="mx-1"/>
           </a>
-          <a href="https://www.instagram.com/shueyjanthony/" target="_blank" rel="noopener noreferrer" className={styles.logoLink}>
-            <Image src="/instagram_logo.jpg" alt="Instagram Logo" width={48} height={48} className="mx-1"/>
-          </a>
-          <a href="https://twitter.com/AnthonyShu22260" target="_blank" rel="noopener noreferrer" className={styles.logoLink}>
-            <Image src="/twitter_logo.jpg" alt="Twitter Logo" width={48} height={48} className="mx-1"/>
-          </a>
           <a href="https://github.com/AnthonyShuey" target="_blank" rel="noopener noreferrer" className={styles.logoLink}>
             <Image src="/github_logo.jpg" alt="GitHub Logo" width={48} height={48} className="mx-1"/>
           </a>
