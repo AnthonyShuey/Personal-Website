@@ -20,7 +20,7 @@ export default function Home() {
 
       <main className={`${styles.flexContainer} flex-grow p-6 flex-col items-center justify-center text-center`}>
         <h1 className="text-4xl font-bold">Hello!</h1>
-        <p>{`I'm Anthony Shuey. I'm a computer science major at Boston University class of '25. I code, write, study mathematics, and I enjoy learning the intracacies at the intersection of technology and life.`}</p>
+        <p>{`I\'m Anthony Shuey. I\'m a computer science major at Boston University class of '25. I code, write, study mathematics, and I enjoy learning the intracacies at the intersection of technology and life.`}</p>
         <Image src="/image_for_website.jpg" alt="Your Image" width={200} height={200} className="rounded-full mt-4"/>
         <div className={`${styles.flexContainer} mt-2 items-center`}>
           <a href="https://www.linkedin.com/in/anthonshuey" target="_blank" rel="noopener noreferrer" className={styles.logoLink}>
@@ -40,7 +40,7 @@ export default function Home() {
 
       <footer className={`${styles.flexContainer} bg-white p-4 justify-around`}>
         <div className="w-1/2 p-4">
-          <h2 className="font-bold">I'm proficient in the following areas:</h2>
+          <h2 className="font-bold">I\'m proficient in the following areas:</h2>
           <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
           <li style={{ whiteSpace: 'nowrap' }}>Mathematics Statistics</li>
           <li style={{ whiteSpace: 'nowrap' }}>Machine Learning</li>
