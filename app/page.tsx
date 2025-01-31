@@ -40,7 +40,7 @@ export default function Home() {
 
       <footer className={`${styles.flexContainer} bg-white p-4 justify-around`}>
         <div className="w-1/2 p-4">
-          <h2 className="font-bold">I\'m proficient in the following areas:</h2>
+          <h2 className="font-bold">My proficienty is in the following areas:</h2>
           <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
           <li style={{ whiteSpace: 'nowrap' }}>Mathematics Statistics</li>
           <li style={{ whiteSpace: 'nowrap' }}>Machine Learning</li>
